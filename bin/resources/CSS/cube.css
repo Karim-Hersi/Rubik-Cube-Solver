@@ -1,0 +1,153 @@
+root {
+	display: block;
+}
+
+.root {
+	-fx-accent: #11939A;
+	-fx-focus-color: #154360;
+}
+
+.button {
+	-fx-background-radius: 0px;
+	-fx-border-color: black;
+}
+
+.button:hover {
+	-fx-cursor: hand;
+}
+
+.combo-box {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 12px;
+}
+
+.scroll-pane {
+	-fx-faint-focus-color: transparent;
+	-fx-text-box-border: #E5E5E4;
+	-fx-focus-color: #E5E5E4;
+}
+
+.scroll-pane:hover {
+	-fx-background-border-color: #A4A4A4;
+	-fx-text-box-border: #A4A4A4;
+}
+
+#label {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 14px;
+}
+
+#borderpane {
+	-fx-background-color: #FFFFFF;
+}
+
+.menu-bar {
+	-fx-background-color: #FFFFFF;
+}
+
+.menu :hover {
+	-fx-cursor: hand;
+}
+
+#menuButton{
+	-fx-font-family: "Montserrat Hairline";
+	-fx-font-size: 14px;
+	-fx-text-fill: black;
+}
+
+rubikscube {
+	-fx-faint-focus-color: transparent;
+	-fx-text-box-border: #E5E5E4;
+}
+
+rubikscube:hover {
+	-fx-background-border-color: #FFFFFF;
+	-fx-text-box-border: #A4A4A4;
+}
+
+.text-area {
+	-fx-faint-focus-color: transparent;
+	-fx-text-box-border: #E5E5E4;
+}
+
+.text-area:hover {
+	-fx-background-border-color: #A4A4A4;
+	-fx-text-box-border: #A4A4A4;
+}
+
+#icon {
+	-fx-font-family: FontAwesome;
+	-fx-font-size: 14px;
+	-fx-font-weight: 100;
+	-fx-cursor: hand;
+}
+
+.label {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 12px;
+}
+
+#logo {
+	-fx-font-family: "Monserrat";
+	-fx-font-size: 24px;
+}
+
+#solvepuzzlebutton {
+	-fx-background-color: #1F618D;
+	-fx-text-fill: white;
+	-fx-font-family: "FontAwesome";
+	-fx-font-size: 16px;
+	-fx-background-radius: 0px;
+}
+
+#nextbutton {
+	-fx-background-color: #D61919;
+	-fx-text-fill: white;
+	-fx-font-family: "FontAwesome";
+	-fx-font-size: 16px;
+	-fx-background-radius: 0px;
+}
+
+#solvepuzzlebutton:hover {
+	-fx-background-color: #154360;
+	-fx-font-size: 18px;
+	-fx-cursor: hand;
+}
+
+#menuButton:hover {
+	-fx-cursor: hand;
+}
+
+#textArea .content {
+	-fx-faint-focus-color: transparent;
+	-fx-background-color: #F4F4F4;
+	-fx-focus-color: #F4F4F4;
+	-fx-background-border-color: #F4F4F4;
+	-fx-text-box-border: #F4F4F4;
+}
+
+#textArea:hover .content {
+	-fx-background-border-color: #F4F4F4;
+	-fx-text-box-border: #F4F4F4;
+}
+
+#textArea {
+	-fx-faint-focus-color: transparent;
+	-fx-background-color: #F4F4F4;
+	-fx-focus-color: #F4F4F4;
+	-fx-background-border-color: #F4F4F4;
+	-fx-text-box-border: #F4F4F4;
+	-fx-font-family: "Montserrat-Light";
+	-fx-font-size: 12px;
+}
+
+#textArea:hover {
+	-fx-background-border-color: #F4F4F4;
+	-fx-text-box-border: #F4F4F4;
+}
+
+#sceneTitle {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
