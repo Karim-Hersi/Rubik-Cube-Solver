@@ -3,7 +3,6 @@ package artificialintelligence;
 import java.util.*;
 
 public class Solver{
-	public static final int MAX_DEPTH = 5;
 	public static double threshold;
 	public static double minimumCostOfPrunedNode = Double.MAX_VALUE;
 
