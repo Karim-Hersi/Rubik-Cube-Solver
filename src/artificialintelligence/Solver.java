@@ -25,23 +25,23 @@ public class Solver{
 			Vertex vertex = stack.pop();
 			if(vertex.isDestinationState()){
 				return vertex.getMovesFromRoot(); //we have the solution
-			}else if(shouldContinuePath(vertex)){
+			}else if(!prunePath(vertex)){
 				addAdjacentVertices(stack, vertex);//we will check the adjacent vertices
 			}
 		}
 		return null;
 	}
 
-	public static boolean shouldContinuePath(Vertex currentVertex){
+	public static boolean prunePath(Vertex currentVertex){
 		double g = currentVertex.getDepth();
 		double h = currentVertex.getHeuristicValue();
 		double f = g + h;
 		if(f <= threshold){
-			return true;
+			return false;
 		}else if(f < minimumCostOfPrunedNode){
 			minimumCostOfPrunedNode = f;
 		}
-		return false;
+		return true;
 	}
 
 	public static void addAdjacentVertices(Stack<Vertex> stack, Vertex vertex){
