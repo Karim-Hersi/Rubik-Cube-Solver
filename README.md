@@ -31,3 +31,13 @@ Under the color palette in the bottom right of the screen, you will notice two i
 Also, you can click the ‘reset’ icon under the color palette and to the right. This will reset the state of the cube to a solved state.
 
 ![image](https://user-images.githubusercontent.com/14824605/34399919-e16ff62a-eb59-11e7-86c8-c5906c1a5fce.png)
+
+Once you have set up the state of your cube on to the user interface, click the solve puzzle icon. If the input state is a solvable state, the program will get the steps to solve this cube and walk the user to the solution. 
+
+![image](https://user-images.githubusercontent.com/14824605/34400115-2dfe5584-eb5c-11e7-995b-72b821d07c7b.png)
+
+![image](https://user-images.githubusercontent.com/14824605/34400130-499eb0d6-eb5c-11e7-813b-9faa8dc6ac65.png)
+
+
+
+# Part 2 - Design Decisions
