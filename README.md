@@ -7,7 +7,7 @@ You can change the dimensions for the solver by clicking the ‘menu’ tab in t
 ![image](https://user-images.githubusercontent.com/14824605/34400014-f2b650f4-eb5a-11e7-94a7-4eea39808bf8.png)
 
 
-![image](https://user-images.githubusercontent.com/14824605/34399827-37102f38-eb59-11e7-8339-0f17caa68b8b.png)
+![image](https://user-images.githubusercontent.com/14824605/34400023-1b254ea0-eb5b-11e7-828f-67c5eb3cc008.png)
 
 Once you change the dimensions, go back to the previous menu. You will notice that the user interface has been updated. Below show screen shots for the different dimensions of the Rubik Cube Solver. Note: Although the code is generalized to solve for different dimensions, it will take more CPU resources (time, memory) for larger dimensions.
 
