@@ -15,3 +15,16 @@ Once you change the dimensions, go back to the previous menu. You will notice th
 ![image](https://user-images.githubusercontent.com/14824605/34399839-4fb25dae-eb59-11e7-9096-b832fad9fcbe.png)
 
 ![image](https://user-images.githubusercontent.com/14824605/34399844-5a1bbd4e-eb59-11e7-87b1-5d25a827f9be.png)
+
+![image](https://user-images.githubusercontent.com/14824605/34399865-8c035baa-eb59-11e7-9d16-584f4cca3497.png)
+
+
+Under the color palette in the bottom right of the screen, you will notice two icons. The icon to the left is used to shuffle the cube. Clicking this button will provide a random solvable orientation on to the user interface.
+
+![image](https://user-images.githubusercontent.com/14824605/34399888-b1778c62-eb59-11e7-80b2-f15a47b3865f.png)
+
+![image](https://user-images.githubusercontent.com/14824605/34399899-c176040e-eb59-11e7-92f1-9aab4cc6248e.png)
+
+Also, you can click the ‘reset’ icon under the color palette and to the right. This will reset the state of the cube to a solved state.
+
+![image](https://user-images.githubusercontent.com/14824605/34399919-e16ff62a-eb59-11e7-86c8-c5906c1a5fce.png)
