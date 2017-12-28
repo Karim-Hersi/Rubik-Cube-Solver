@@ -4,7 +4,7 @@ To use the solver, input the state of your cube using the 2-D representation bel
 
 You can change the dimensions for the solver by clicking the ‘menu’ tab in the top left color and then clicking ‘settings’. 
 
-![image](https://user-images.githubusercontent.com/14824605/34399821-2de2c664-eb59-11e7-8e88-06816fac26ae.png)
+![image](https://user-images.githubusercontent.com/14824605/34400014-f2b650f4-eb5a-11e7-94a7-4eea39808bf8.png)
 
 
 ![image](https://user-images.githubusercontent.com/14824605/34399827-37102f38-eb59-11e7-8339-0f17caa68b8b.png)
