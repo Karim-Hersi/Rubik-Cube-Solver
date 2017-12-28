@@ -1,3 +1,6 @@
+# Part 1 - How to use the program
+
+
 To use the solver, input the state of your cube using the 2-D representation below. Click the color palette of the desired color and then click the square to update its color.
 
    ![image](https://user-images.githubusercontent.com/14824605/34399937-0d8f5c1e-eb5a-11e7-844c-cf24ab007ddd.png) 
