@@ -41,3 +41,11 @@ Once you have set up the state of your cube on to the user interface, click the 
 
 
 # Part 2 - Design Decisions
+
+The first decision was to find a notation to uniquely specify each rotation on the cube. A common notation is used is to use a letter for the face that is being rotated and add a prime symbol (') if the rotation is counter clockwise. For example, "F" would specify to rotate the front face of the cube clockwise and "f'" would specify to rotate the front face of the cube counter clockwise. There is a default position in the cube where the green face is faced such that it is the front face. You can read about this notation in the link below.
+
+https://ruwix.com/the-rubiks-cube/notation/
+
+For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sixes (for example a 5 by 5 cube) you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most states not being optimal with the notation above. 
+
+The notation I used to specify each move was by specifying the axis the layer rotated about, which layer was rotated, and the direction that of the rotation. 
