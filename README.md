@@ -49,3 +49,6 @@ https://ruwix.com/the-rubiks-cube/notation/
 For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sixes (for example a 5 by 5 cube) you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most states not being optimal with the notation above. 
 
 The notation I used to specify each move was by specifying the axis the layer rotated about, which layer was rotated, and the direction that of the rotation. 
+
+![image](https://user-images.githubusercontent.com/14824605/34450879-8114f8d4-ece4-11e7-9350-8d1f18e8591c.png)
+
