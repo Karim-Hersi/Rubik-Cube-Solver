@@ -42,6 +42,7 @@ Once you have set up the state of your cube on to the user interface, click the 
 
 # Part 2 - Design Decisions
 
+# Creating a notation to specify all the possible rotations
 The first decision was to find a notation to uniquely specify each rotation on the cube. A common notation is used is to use a letter for the face that is being rotated and add a prime symbol (') if the rotation is counter clockwise. For example, "F" would specify to rotate the front face of the cube clockwise and "f'" would specify to rotate the front face of the cube counter clockwise. There is a default position in the cube where the green face is faced such that it is the front face. You can read about this notation in the link below.
 
 https://ruwix.com/the-rubiks-cube/notation/
@@ -57,4 +58,6 @@ Below displays all the possible rotations about the Y - Axis.
 ![image](https://user-images.githubusercontent.com/14824605/34450906-c1c6adae-ece5-11e7-8b08-ad52a32744e6.png)
 
 In an N x N cube, there are ( N cubic squares per column/row ) X ( 3 Axis to rotate about ) X ( 2 Directions for Clockwise and Counter Clockwise ) = 6N total possible rotations.
+
+# Graph Representation
 
