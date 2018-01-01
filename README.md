@@ -55,7 +55,7 @@ The notation I used to specify each move was by specifying the axis the layer ro
 
 Below displays all the possible rotations about the X - Axis.
 
-![image](https://user-images.githubusercontent.com/14824605/34451030-e4f440b4-ece7-11e7-8cdd-cc949f34c61b.png)
+![image](https://user-images.githubusercontent.com/14824605/34464992-b04bf466-ee67-11e7-94ba-4f49a4210ad8.png)
 
 In an N x N cube, there are ( N cubic squares per column/row ) X ( 3 Axis to rotate about ) X ( 2 Directions for Clockwise and Counter Clockwise ) = 6N total possible rotations.
 
