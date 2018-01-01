@@ -59,5 +59,10 @@ Below displays all the possible rotations about the X - Axis.
 
 In an N x N cube, there are ( N cubic squares per column/row ) X ( 3 Axis to rotate about ) X ( 2 Directions for Clockwise and Counter Clockwise ) = 6N total possible rotations.
 
-# Graph Representation
+# Graph Representation & Algorithm
+
+We can model the Rubik Cube state combinations as a graph. The initial state is inputted by the user. This state has 6N (where N is the the dimensions of the cube) adjacent  vertices. Each adjacent vertice is equivalent to the starting state and a different rotation applied to the cube. We can use the Iterative Deepening Depth First Search algorithm to find an optimal path from the start state (which is the state inputted by the user) to the goal state (which is the state with the cube solved). Here are a few links that expalain this algorithm and why it is so effective at solving the Rubik's Cube puzzle.
+
+https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf
+
 
