@@ -65,4 +65,4 @@ We can model the Rubik Cube state combinations as a graph. The initial state is 
 
 https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf
 
-
+# Applying any rubik rotation with a space complexity of O(1)
