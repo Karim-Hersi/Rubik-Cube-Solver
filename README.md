@@ -43,13 +43,13 @@ Once you have set up the state of your cube on to the user interface, click the 
 # Part 2 - Design Decisions
 
 # Creating a notation to specify all the possible rotations
-The first decision was to find a notation to uniquely specify each rotation on the cube. A common notation is used is to use a letter for the face that is being rotated and add a prime symbol (') if the rotation is counter clockwise. For example, "F" would specify to rotate the front face of the cube clockwise and "f'" would specify to rotate the front face of the cube counter clockwise. There is a default position in the cube where the green face is faced such that it is the front face. You can read about this notation in the link below.
+A common notation used to specify Rubik rotations is to use a letter for the face that is being rotated and add a prime symbol (') if the rotation is counter clockwise. For example, "F" would specify to rotate the front face of the cube clockwise and "f'" would specify to rotate the front face of the cube counter clockwise. There is a default position in the cube where the green face is faced such that it is the front face. You can read about this notation in the link below.
 
 https://ruwix.com/the-rubiks-cube/notation/
 
-For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sixes (for example a 5 by 5 cube) you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most states not being optimal with the notation above. 
+For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sizes you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most states not being optimal with the notation above. 
 
-The notation I used to specify each move was by specifying the axis the layer rotated about, which layer was rotated, and the direction that of the rotation. 
+I decided to create my own notation where I would uniquely decribe each move by the axis the layer rotated about, which layer was rotated, and the direction of that rotation. 
 
 ![image](https://user-images.githubusercontent.com/14824605/34451025-b6989b5c-ece7-11e7-844b-2c61fccaced6.png)
 
@@ -61,7 +61,7 @@ In an N x N cube, there are ( N cubic squares per column/row ) X ( 3 Axis to rot
 
 # Graph Representation & Algorithm
 
-We can model the Rubik Cube state combinations as a graph. The initial state is inputted by the user. This state has 6N (where N is the the dimensions of the cube) adjacent  vertices. Each adjacent vertice is equivalent to the starting state and a different rotation applied to the cube. We can use the Iterative Deepening Depth First Search algorithm to find an optimal path from the start state (which is the state inputted by the user) to the goal state (which is the state with the cube solved). Here are a few links that explain this algorithm and why it is so effective at solving the Rubik's Cube puzzle.
+We can model the Rubik Cube state combinations as a graph. The initial state is inputted by the user. This state has 6N (where N is the dimensions of the cube) adjacent  vertices. We can use the Iterative Deepening Depth First Search algorithm to find an optimal path from the start state (which is the state inputted by the user) to the goal state (which is the state with the cube solved). Here is a link that explains this algorithm and why it is so effective at solving the Rubik's Cube puzzle.
 
 https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf
 
