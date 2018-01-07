@@ -47,9 +47,9 @@ A common notation used to specify Rubik rotations is to use a letter for the fac
 
 https://ruwix.com/the-rubiks-cube/notation/
 
-For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sizes you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most states not being optimal with the notation above. 
+For this application, I wanted to provide a more general solution. I wanted to be able to run my code on different dimensions (2 by 2, 3 by 3, 4 by 4, 5 by 5) for experimental purposes. The notation described above is only effective for a 3 by 3 cube. For larger sizes you would not be able to rotate any of the middle layers. This would result in some states being unsolvable and most solutions not being optimal with the notation above. 
 
-I decided to create my own notation where I would uniquely decribe each move by the axis the layer rotated about, which layer was rotated, and the direction of that rotation. 
+I decided to create my own notation where I would uniquely decribe each move by the axis that is rotated about, which layer was rotated, and the direction of that rotation. 
 
 ![image](https://user-images.githubusercontent.com/14824605/34451025-b6989b5c-ece7-11e7-844b-2c61fccaced6.png)
 
